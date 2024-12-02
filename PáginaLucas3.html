@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfólio Lucas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 16px;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #333;
+        }
+        .form-container {
+            max-width: 600px;
+            margin: auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        button {
+            background-color: #333;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #575757;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Lucas Eduardo Silva Rodrigues</h1>
+	<link rel="stylesheet" href="css/style.css">
+	<img id="img_redonda" src="img/imgperfil.jpg" alt="imagem pessoal"  width="7%"/>
+</header>
+  
+<nav>
+    <a href="#identificacao">Identificação</a>
+    <a href="#formacao">Formação Acadêmica</a>
+    <a href="#atuacao">Atuação Profissional</a>
+    <a href="#hobbies">Hobbies</a>
+    <a href="#contato">Contato</a>
+</nav>
+
+<div class="toast align-items-center text-bg-primary border-0" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Bem vindo(a) ao meu portfólio!
+    </div>
+    <button type="submit">X</button>
+  </div>
+</div>
+
+<section id="identificacao">
+    <h2>Identificação</h2>
+    <p>Bem vindo ao meu portfólio pessoal,sou o Lucas, tenho 18 anos, resido em planaltina-DF, e atualmente sou um estudante universitário da área da Tecnologia da Informação (TI), e da Geografia.</p>
+</section>
+
+<section id="formacao">
+    <h2>Formação Acadêmica</h2>
+    <ul>
+        <li><strong>Bacharel e Licenciatura em Geografia</strong> - Universidade Nacional de Brasília (Unb).</li>
+        <li><strong>Tecnólogo em Análise e Desenvolvimento de Sistemas</strong> - Universidade Projeção de Sobradinho.</li>
+    </ul>
+</section>
+
+<section id="atuacao">
+    <h2>Atuação Profissional</h2>
+    <p>No momento, estou à procura de um estágio na área.</p>
+</section>
+
+<section id="hobbies">
+    <h2>Hobbies</h2>
+    <p>Tenho muitos hobbies que me ajudam a relaxar e me inspirar. Aqui estão alguns deles:</p>
+    <ul>
+        <li><a href="https://www.instagram.com/lucas.esr_/profilecard/?igsh=NWZ3ejlnYnY2N2xz">Instagram</a></li>
+        <li><a href="https://vasco.com.br/">Vasco</a></li>
+		<p><audio controls src="áudio/hinovasco.mpeg">
+			<source src="hinovasco.mpeg" type="audio/mpeg">
+		</audio></p>
+        <li><a href="https://www.formula1.com/">Fórmula 1</a></li>
+        <li><a href="https://www.nba.com/">NBA</a></li>
+        <li><a href="https://ludoking.com/">Ludo King</a></li>
+    </ul>
+</section>
+
+<section id="contato">
+    <h2>Contato</h2>
+    <div class="form-container">
+        <form action="mailto:seuemail@example.com" method="post" enctype="text/plain">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</section>
+
+
+
+</body>
+</html>
